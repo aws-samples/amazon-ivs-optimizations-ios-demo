@@ -10,8 +10,7 @@ The demo app displays a list of optimization options, each opening a simple play
 
 1. Clone the repository to your local machine.
 2. Install the SDK dependency using CocoaPods. This can be done by running the following commands from the repository folder:
-   * `bundle install`
-   * `bundle exec pod install`
+   * `pod install`
    * For more information about these commands, see [Bundler](https://bundler.io/) and [CocoaPods](https://guides.cocoapods.org/using/getting-started.html).
 3. Open amazon-ivs-optimizations-ios-demo.xcworkspace.
 4. You can now build and run the projects in the simulator.
