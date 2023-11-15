@@ -50,8 +50,6 @@ class PlayerViewController: UIViewController, InfoPillsDelegate {
             player?.delegate = self
             playerView?.player = player
             startPlayback()
-
-        default: break
         }
 
         infoViewsStackViewHeightConstraint.constant = 250
