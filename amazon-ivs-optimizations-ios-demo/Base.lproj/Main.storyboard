@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4du-o0-MKe">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4du-o0-MKe">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="SF-Pro-Display-Bold.otf">
-            <string>SFProDisplay-Bold</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Navigation Controller-->
         <scene sceneID="RAE-cz-Oi7">
@@ -38,7 +33,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQK-rR-CEr">
-                                <rect key="frame" x="26" y="44" width="20" height="48"/>
+                                <rect key="frame" x="26" y="50" width="20" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="Xev-9A-G12"/>
                                     <constraint firstAttribute="height" constant="48" id="lDg-CS-Zs9"/>
@@ -55,13 +50,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdh-Xf-Lv7">
-                                <rect key="frame" x="16" y="152" width="343" height="42"/>
-                                <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="36"/>
+                                <rect key="frame" x="16" y="158" width="343" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZyX-dm-2aE">
-                                <rect key="frame" x="16" y="254" width="343" height="172.33333333333337"/>
+                                <rect key="frame" x="16" y="261" width="343" height="172.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="BVN-pP-k5G">
                                         <rect key="frame" x="16" y="16" width="311" height="140.33333333333334"/>
@@ -179,7 +174,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Best practices &amp; optimizations" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IC5-gz-GH9">
-                                <rect key="frame" x="21" y="174" width="333" height="110"/>
+                                <rect key="frame" x="21" y="180" width="333" height="110"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="110" id="9MS-uY-9So"/>
                                 </constraints>
@@ -229,7 +224,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfF-kH-OGq">
-                                <rect key="frame" x="10" y="44" width="40" height="40"/>
+                                <rect key="frame" x="10" y="50" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="EUJ-vj-hcu"/>
                                     <constraint firstAttribute="height" constant="40" id="jqf-7j-GRD"/>
@@ -275,7 +270,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYf-a5-Jcn">
-                                <rect key="frame" x="26" y="44" width="20" height="48"/>
+                                <rect key="frame" x="26" y="50" width="20" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="DUk-dp-aE2"/>
                                     <constraint firstAttribute="width" constant="20" id="d92-9R-Bag"/>
@@ -291,7 +286,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bj5-pV-eBe" customClass="IVSPlayerView">
-                                <rect key="frame" x="0.0" y="152" width="375" height="211"/>
+                                <rect key="frame" x="0.0" y="158" width="375" height="211"/>
                                 <subviews>
                                     <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="JMF-s7-YtG">
                                         <rect key="frame" x="169" y="87" width="37" height="37"/>
@@ -339,7 +334,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="chevron.backward" catalog="system" width="32" height="32"/>
-        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
     </resources>
 </document>
